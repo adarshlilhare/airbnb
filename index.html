@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body {
+            overflow-x: hidden;
+        }
+
+        button {
+            background-color: rgb(255, 46, 81);
+
+        }
+
+        button:hover {
+            background-color: rgb(255, 46, 81);
+            color: white;
+            cursor: pointer;
+            border-radius: 13px;
+
+        }
+
+        img {
+            overflow: hidden;
+            cursor: pointer;
+        }
+
+
+
+        img:hover {
+            transform: scale(1.09);
+            transition: transform 2s;
+
+        }
+
+        .div4 {
+            border-bottom: 10px solid black;
+            border-top: 10px solid black;
+            border-right: 5px solid white;
+            border-left: 5px solid white;
+            border-radius: 50%;
+            width: 300px;
+            height: 300px;
+            animation-name: circle;
+            animation-duration: 4s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate-reverse;
+        }
+
+        @keyframes circle {
+            from {
+                transform: rotate(360deg)scale(1.4);
+                background-image: url('https://th.bing.com/th?q=Airbnb+Miami&w=120&h=120&c=1&rs=1&qlt=90&cb=1&dpr=1.3&pid=InlineBlock&mkt=en-IN&cc=IN&setlang=en&adlt=strict&t=1&mw=247');
+                border-bottom: 10px solid black;
+                border-top: 10px solid black;
+                border-right: 5px solid white;
+                border-left: 5px solid white;
+            }
+
+            to {
+                transform: rotate(-360deg)scale(-1.4);
+                background-image: url('https://th.bing.com/th/id/OIP.gBTT4Fsae1SUaPPqku-OwQHaE8?w=254&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7');
+                border-bottom: 10px solid red;
+                border-top: 10px solid red;
+                border-right: 5px solid white;
+                border-left: 5px solid white;
+            }
+        }
+
+        .div5 {
+            border-bottom: 10px solid black;
+            border-top: 10px solid black;
+            border-right: 5px solid white;
+            border-left: 5px solid white;
+            margin-left: 800px;
+            border-radius: 50%;
+            width: 300px;
+            height: 300px;
+            animation-name: square;
+            animation-duration: 4s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate-reverse;
+        }
+
+        @keyframes square {
+            from {
+                transform: rotate(360deg)scale(1.4);
+                background-image: url('https://th.bing.com/th/id/OIP.EANHikHYIhL8xupb7l0akgHaE8?w=250&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7');
+                border-bottom: 10px solid black;
+                border-top: 10px solid black;
+                border-right: 5px solid white;
+                border-left: 5px solid white;
+            }
+
+            to {
+                transform: rotate(-360deg)scale(-1.4);
+                background-image: url('https://th.bing.com/th/id/OIP.RbkDyFwG5pW6mKlhtKhmBQHaE8?w=281&h=187&c=7&r=0&o=5&dpr=1.3&pid=1.7');
+                border-bottom: 10px solid red;
+                border-top: 10px solid red;
+                border-right: 5px solid white;
+                border-left: 5px solid white;
+            }
+        }
+
+        .div6 {
+
+
+
+            background-repeat: repeat-x;
+            height: 700px;
+
+        }
+
+        .div45 {
+            display: grid;
+            grid-template-columns: auto auto auto;
+        }
+
+        .div43 {
+            display: grid;
+            grid-template-columns: auto auto auto;
+        }
+
+        .div54 {
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+        }
+
+        .div78 {
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+        }
+
+        .div56 {
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+        }
+
+        .div55 {
+            display: grid;
+            grid-template-columns: auto auto auto;
+        }
+
+        .div61 {
+            display: grid;
+            grid-template-columns: auto auto;
+        }
+
+
+        .h {
+            display: block;
+        }
+
+        .div6 {
+            display: flex;
+        }
+
+        @media(max-width:800px) {
+            .div45 {
+                display: grid;
+                grid-template-columns: auto;
+
+            }
+
+            .div43 {
+                display: grid;
+                grid-template-columns: auto;
+            }
+
+            .div54 {
+                display: grid;
+                grid-template-columns: auto;
+            }
+
+            .div78 {
+                display: grid;
+                grid-template-columns: auto;
+            }
+
+            .div56 {
+                display: grid;
+                grid-template-columns: auto;
+
+            }
+
+            .div55 {
+                display: grid;
+                grid-template-columns: auto;
+
+            }
+
+
+
+            .h {
+                display: block;
+                margin-left: -270px;
+            }
+
+            .div61 {
+                display: grid;
+                grid-template-columns: auto;
+
+            }
+
+            .div6 {
+                display: block;
+
+
+            }
+
+            .div4 {
+                margin-left: 90px;
+            }
+
+            .div5 {
+                margin-left: 90px;
+                margin-top: 120px;
+            }
+
+
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <div style="position: sticky; top:0px; z-index: 9999999999999999999999999999999999; background-color: rgb(255,255,255);"
+        class="snow">
+        <img src="https://th.bing.com/th?id=OIP.wkQQ2VS5KrIC0UBbUtZgKgHaEK&w=333&h=187&c=8&rs=1&qlt=90&o=6&dpr=2.6&pid=3.1&rm=2"
+            style="width:130px;">
+        <div style="    display: flex;  margin-left: 1200px; margin-top:-70px;" class="div33">
+            <h3 style="text-decoration: underline;">sign up</h3>
+            <button style="border-radius: 9px; padding:0px 60px 0px 60px;">Start your search</button>
+        </div>
+
+
+    </div>
+    <hr>
+    <div class="div6" style="margin-top: 100px;">
+
+        <div class="div4" style="z-index: 99999999;"></div>
+        <div class="div5" style="z-index:999999999;"></div>
+
+    </div>
+
+    <div style="display:flex;">
+        <div
+            style="margin-top: 190px; background-color: rgb(255, 255, 255); z-index: 999999999; margin-right:-130px; margin-left:100px; box-shadow: 1px 3px 10px 1px gray; border-radius: 13px; margin-top: 50px; ">
+
+            <footer>
+                <form>
+                    <h1 style="font-size: xxx-large;">Find places to stay on
+                        Airbnb</h1>
+                    <h4 style="color: gray;">Discover entire homes and rooms perfect for any trip.</h4>
+                    <div>
+                        <input type="text" placeholder="Location">
+                        <br>
+                        <br>
+
+                        <input type="number" placeholder="Check in">
+                        <input type="number" placeholder="Check out">
+                        <br>
+                        <br>
+                        <select>
+                            <option>
+                                ADULTS
+                            </option>
+                            <option>4</option>
+                            <option>6</option>
+                            <option>8</option>
+                        </select>
+
+                        <select>
+                            <option>
+                                CHILDREN
+                            </option>
+                            <option>4</option>
+                            <option>6</option>
+                            <option>8</option>
+                        </select>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+
+                        <center> <button
+                                style=" margin-top: -1000px; padding-left: 130px; padding-right: 130px; padding-top: 23px; padding-bottom: 23px; border-radius: 9px;">Search</button>
+                        </center>
+
+
+                </form>
+            </footer>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <div style="margin-top: 50px;"><img
+                src="https://a0.muscache.com/im/pictures/9caaca2d-6892-4638-b675-6a879974f5ed.jpg?im_w=1680"
+                style="width:900px; border-radius: 9px;"></div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <div style=" margin-left: 90px;" class="div43">
+        <div><img src="https://a0.muscache.com/im/pictures/7c7ccb34-a563-4f25-9fba-e4a46e2dbc3a.jpg?im_w=320"
+                style="width: 30px; margin-top: 30px;">
+            <h2>Enjoy some flexibility</h2>
+            Stays with flexible cancellation make it easy to rebook if your plans change.
+        </div>
+        <div><img src="https://a0.muscache.com/im/pictures/d51be571-b8cf-4379-8d3f-7c5e56c9def5.jpg?im_w=320"
+                style="width:30px; margin-top: 30px;">
+            <h2>More than 7M active listings</h2>
+            Join more than 1 billion guests who’ ve found getaways in over 220 countries and destinations.
+        </div>
+        <div><img src="https://a0.muscache.com/im/pictures/a52e81a9-e390-4e74-b197-1aeeffd0e5ab.jpg?im_w=320"
+                style="width: 30px; margin-top: 30px;">
+            <h2>100+ filters for tailored stays</h2>
+            Pick your price range, the number of rooms you want and other key amenities to find the stay that fits your
+            needs.
+        </div>
+
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h1 style="margin-left:90px;">Big,Small,we have it all</h1>
+
+    <div style=" margin-left: 90px;" class="div45">
+        <div><a href="airbnb3.html" target="_blank"><img
+                    src="https://a0.muscache.com/im/pictures/2a8778ba-5a0b-45cd-986f-93fdb937f839.jpg?im_w=480"
+                    style="width:380px; border-radius:9px; margin-left: -30px;"></a></div>
+        <div><a href="airbnb3.html" target="_blank"><img
+                    src="https://a0.muscache.com/im/pictures/bda7107c-9683-49a7-8d5c-65d8dbcd3675.jpg?im_w=480"
+                    style="width:380px; margin-left: -40px; border-radius:9px;"></a></div>
+        <div><a href="airbnb3.html" target="_blank"><img
+                    src="https://a0.muscache.com/im/pictures/4603bd44-699a-4284-9b52-eebc49225879.jpg?im_w=480"
+                    style="width:380px; margin-left:-40px; border-radius:9px;"></a></div>
+
+
+
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h1 style="margin-left: 90px;">Family-friendly stays with full kitchens</h1>
+    <h4 style="margin-left: 90px;">Prepare a feast for loved ones in these stays with kitchens and BBQ grills.
+    </h4>
+    <div style=" margin-left: 90px;" class="div54">
+        <div><a href="airbnb3.html" target="_blank"><img
+                    src="https://a0.muscache.com/im/pictures/prohost-api/Hosting-44190019/original/79426230-05ed-48bd-bd35-508826d73d71.jpeg?im_w=320"
+                    style="width:300px; border-radius:9px; margin-left: -18px;"></a></div>
+        <div><a href="airbnb3.html" target="_blank"><img
+                    src="https://a0.muscache.com/im/pictures/miso/Hosting-923358236592507337/original/d088d38b-7b31-4e68-8504-b0dd0f7c0716.jpeg?im_w=320"
+                    style="width:300px; margin-left: -20px; border-radius:9px;"></a></div>
+        <div><a href="airbnb3.html" target="_blank"><img
+                    src="https://a0.muscache.com/im/pictures/d9d976ee-125a-4430-982e-980610ecba58.jpg?im_w=320"
+                    style="width:300px; margin-left:-20px; border-radius:9px;"></a></div>
+        <div><a href="airbnb3.html" target="_blank"><img
+                    src="https://a0.muscache.com/im/pictures/3e4d7389-9ce7-4487-bf8a-d16645cbb5d4.jpg?im_w=320"
+                    style="width:300px; margin-left: -30px; border-radius: 9px;"></a></div>
+
+
+    </div>
+    <br>
+    <br>
+    <br>
+    <button style="border-radius: 3px; padding: 13px; margin-left:90px;">Let's get cooking</button>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h1 style="margin-left: 90px;">Homes with refreshing pools</h1>
+    <h4 style="margin-left: 90px;">Relax with your crew by the pool in stays with 2+ bedrooms.
+    </h4>
+    <div style=" margin-left: 90px;" class="div54">
+        <div><a href="airbnb3.html" target="_blank"><img
+                    src="https://a0.muscache.com/im/pictures/989b5720-050a-4235-8333-fc4ca9585d04.jpg?im_w=720"
+                    style="width:300px; height:200px; border-radius:9px; margin-left: -18px;"></a></div>
+        <div><a href="airbnb3.html" target="_blank"><img
+                    src="https://a0.muscache.com/im/pictures/9aeb1641-947d-4e98-b1c9-312656fb8d8c.jpg?im_w=720"
+                    style="width:300px; margin-left: -20px; border-radius:9px;"></a></div>
+        <div><a href="airbnb3.html" target="_blank"><img
+                    src="https://a0.muscache.com/im/pictures/3ca391c4-717b-4a72-98c0-369ff2147d4c.jpg?im_w=720"
+                    style="width:300px; margin-left:-20px; border-radius:9px;"></a></div>
+        <div><a href="airbnb3.html" target="_blank"><img
+                    src="https://a0.muscache.com/im/pictures/039af30e-c123-43e7-aa24-36463ba42a57.jpg?im_w=720"
+                    style="width:300px; margin-left: -30px; border-radius: 9px;"></a></div>
+
+
+    </div>
+    <br>
+    <br>
+    <br>
+    <button style="border-radius: 3px; padding: 13px; margin-left:90px;">Keep it chill</button>
+    <br>
+    <br>
+    <br>
+
+    <div style="background-color: rgb(214, 210, 210);">
+        <div class="h">
+            <h1 style="margin-left: 300px;">Get specific with your favourite amenities</h1>
+            <h4 style="margin-left: 300px;">Choose from top features like these – and more – for a personalised stay.
+            </h4>
+        </div>
+        <div style=" margin-left: 0px;" class="div56">
+            <button style="border-radius: 3px; padding: 30px 30px 30px 0px;">Pool</button>
+            <button style="border-radius: 3px; padding: 30px 60px 30px 60px; margin-left: 30px;">Free parking</button>
+            <button style="border-radius: 3px; padding: 30px 60px 30px 60px; margin-left: 30px;">Washing
+                machine</button>
+            <button style="border-radius: 3px; padding: 30px 60px 30px 60px; margin-left: 30px;">AC</button>
+        </div>
+        <br>
+        <br>
+        <br>
+        <div style=" margin-left: 0px;" class="div54">
+            <button style="border-radius: 3px; padding: 30px 30px 30px 0px;">Fireplace</button>
+            <button style="border-radius: 3px; padding: 30px 60px 30px 60px; margin-left: 30px;">TV</button>
+            <button style="border-radius: 3px; padding: 30px 60px 30px 60px; margin-left: 30px;">Heating</button>
+            <button style="border-radius: 3px; padding: 30px 60px 30px 60px; margin-left: 30px;">Barbeque</button>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h1 style="margin-left:90px;">Explore 60+ Airbnb Categories</h1>
+    <h4 style="margin-left: 90px;"> These are just a few collections grouped by style, location and nearby activities.
+    </h4>
+    <div style=" margin-left: 90px;" class="div55">
+        <div><a href="airbnb3.html" target="_blank"><img
+                    src="https://a0.muscache.com/im/pictures/08c39e6f-ff42-44fa-993d-a0a5321a0925.jpg?im_w=480"
+                    style="width:400px; border-radius:9px; margin-left: -30px;"></a></div>
+        <div><a href="airbnb3.html" target="_blank"><img
+                    src="https://a0.muscache.com/im/pictures/7c2ed86b-9be3-42fb-b863-ba40a5b69761.jpg?im_w=480"
+                    style="width:400px; margin-left: -30px; border-radius:9px;"></a></div>
+        <div><a href="airbnb3.html" target="_blank"><img
+                    src="https://a0.muscache.com/im/pictures/c57b7a17-090d-4da9-b8be-dfbe5bba4072.jpg?im_w=480"
+                    style="width:400px; margin-left:-30px; border-radius:9px;"></a></div>
+
+
+
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div style="display: flex; margin-left: -400px;">
+        <a href="airbnb3.html" target="_blank"> <img class="img3"
+                src="https://th.bing.com/th/id/OIP.a56ShJgUXujCT1ebuUU_QgHaE8?w=226&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                style="width:600px; margin-left: 400px; border-radius: 50px;"></a>
+        <a href="airbnb3.html" target="_blank"> <img class="img3"
+                src="https://th.bing.com/th/id/OIP.1_BLQ_AHoEd6PHYzwaHMvgHaE8?w=220&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                style="width:600px; margin-left: -300px; border-radius: 50px;"></a>
+        <a href="airbnb3.html" target="_blank"> <img class="img3"
+                src="https://th.bing.com/th/id/OIP.Rn96Bdd7LVgpaMBPHpIjLwHaEo?w=260&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                style="width:700px; margin-left: -400px; border-radius: 50px;"></a>
+        <a href="airbnb3.html" target="_blank"> <img class="img3"
+                src="https://th.bing.com/th/id/OIP.lb5LmsX47ayVwseyibXKCQHaE_?w=277&h=188&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                style="width:700px; margin-left: -400px; border-radius: 50px;"></a>
+    </div>
+    <div class="div61">
+        <div style="margin-left: 100px;">
+            <h1 style="font-size: xxx-large;">Your questions, answered</h1>
+        </div>
+        <div style="margin-left: 0px; margin-top: 30px;">
+            <details>
+                <summary style="cursor: pointer;">What is Airbnb and how does it work?</summary>
+                <p>We verify personal profiles and listings to make sharing easy, enjoyable and safe for millions of
+                    Hosts and travellers worldwide. Find out more about Airbnb</p>
+            </details>
+            <p style="color:lightgray;">______________________________________________________________</p>
+            <details>
+                <summary style="cursor: pointer;">How do I use search filters?</summary>
+                <p>It’s easy to use our search filters to only show the listings that have the accessibility features
+                    you need. Learn more about using search filters and discover more flexible ways to search.</p>
+            </details>
+            <p style="color:lightgray;">______________________________________________________________</p>
+            <details>
+                <summary style="cursor: pointer;">Do I need to meet my Host?</summary>
+                <p>Options like self check-in or booking an entire home allow you to interact with your Host mainly
+                    through in-app messaging – you can message them anytime if something comes up.</p>
+            </details>
+            <p style="color:lightgray;">______________________________________________________________</p>
+            <details>
+                <summary style="cursor: pointer;">What if I need to cancel due to a problem with the listing or Host?
+                </summary>
+                <p>In most cases, you can resolve any issues directly by messaging your Host. If they can't help, simply
+                    contact Airbnb within 24 hours of discovering the issue. Learn more</p>
+            </details>
+            <p style="color:lightgray;">______________________________________________________________</p>
+            <details>
+                <summary style="cursor: pointer;">Need more information?</summary>
+                <p>Visit our Help Centre to get additional answers to your questions. Learn more</p>
+            </details>
+        </div>
+    </div>
+</body>
+
+</html>

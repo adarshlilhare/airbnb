@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body {
+            overflow-x: hidden;
+        }
+
+        * {
+            scroll-behavior: smooth;
+        }
+
+        div div:hover {
+            color: red;
+            cursor: pointer;
+        }
+
+        img:hover {
+            transform: scale(1.09);
+            transition: transform 2s;
+        }
+
+        div img {
+            cursor: pointer;
+        }
+
+        .table1 {
+
+            animation-name: slide;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate-reverse;
+        }
+
+        .table1:hover {
+            animation: none;
+        }
+
+        div img:hover {
+            transform: scale(1.1);
+        }
+
+        @keyframes slide {
+            0% {
+                margin-left: 0px;
+            }
+
+            40% {
+                margin-left: 0px;
+                margin-left: -600px;
+            }
+
+            70% {
+                margin-left: -600px;
+                margin-left: -700px;
+            }
+
+            100% {
+                margin-left: -700px;
+                margin-left: -900px;
+            }
+        }
+
+        .div1 {
+            border-color: red;
+        }
+
+        .img1:hover {
+            background-color: rgb(255, 3, 45);
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .div67 {
+            display: grid;
+            grid-template-columns: auto auto auto auto auto auto auto auto;
+        }
+
+        .div61 {
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+        }
+
+        .div62 {
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+        }
+
+        .div63 {
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+        }
+
+        .main {
+            display: none;
+
+        }
+
+        #fv:checked~.main {
+            display: block;
+            box-shadow: 0px 0px 30px 13px gray;
+            background-color: white;
+            width: 300px;
+            border-radius: 9px;
+            margin-left: 500px;
+            margin-right: 500px;
+            margin-top: -700px;
+        }
+
+        ul li {
+            list-style-type: none;
+        }
+
+        @media(max-width:800px) {
+            .div61 {
+                display: grid;
+                grid-template-columns: auto;
+            }
+
+            .div62 {
+                display: grid;
+                grid-template-columns: auto;
+            }
+
+            .div63 {
+                display: grid;
+                grid-template-columns: auto;
+            }
+
+
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div style="position: fixed; top:0px; background-color: rgb(241, 236, 236); height:160px;">
+        <div style="display: flex;">
+            <div><img
+                    src="https://th.bing.com/th?id=OIP.-FyEaTbdjB3ed1tW-Ba5ZgHaDt&w=350&h=175&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2"
+                    style="width:130px; margin-top: -10px;"></div>
+            <div class="div67" style="box-shadow: 0px;  width:700px;">
+                <div style="box-shadow: 0px; display:flex; width:360px; margin-left: 500px;">
+                    <dialog
+                        style="display: flex; margin-left: 550px; margin-top: 3px; padding: 7px; border-radius: 400px;"
+                        open>
+                        <a href="#" style="margin-left: 20px; color: black; margin-top: 5px;">Anywhere</a>
+                        <hr style="color:2px solid black; margin-left: 10px; height: 16px;">
+                        <a href="#" style="color: black; margin-top: 5px; margin-left: 6px;">Anyweek</a>
+
+                        <hr style="color:2px solid black; margin-left: 10px;">
+
+                        <a href="#" style="color: black; margin-top: 5px; margin-left: 10px;">Add</a>
+                        <a href="#" style="color: black; margin-top: 5px; margin-left: 10px;">guests</a>
+                        <i class="fa fa-search" style="margin-top: 5px; margin-left: 30px;"></i>
+                    </dialog>
+
+
+                </div>
+            </div>
+
+            <div style="margin-left: 600px;">
+                <img src="https://www.svgrepo.com/show/522554/globe-2.svg" style="width:23px;">
+                <p style="margin-top: -23px; margin-left: -160px;">About your home</p>
+
+            </div>
+
+
+
+            <i class="fa fa-bars" style="margin-left: -53px; margin-top: 5px;"></i></label>
+
+
+
+        </div>
+
+        <table cellspacing="70" style="margin-left: -33px; margin-top: -70px;" class="table1">
+            <tr>
+                <td><img src="https://a0.muscache.com/pictures/3b1eb541-46d9-4bef-abc4-c37d77e3c21b.jpg"
+                        style="width:30px;">
+                    <h5>Amazing views</h5>
+                </td>
+                <td><img src="https://a0.muscache.com/pictures/7630c83f-96a8-4232-9a10-0398661e2e6f.jpg"
+                        style="width:30px;">
+                    <h5>rooms</h5>
+                </td>
+                <td><img src="https://a0.muscache.com/pictures/677a041d-7264-4c45-bb72-52bff21eb6e8.jpg"
+                        style="width:30px;">
+                    <h5>Lakefront</h5>
+                </td>
+                <td><img src="https://a0.muscache.com/pictures/6b639c8d-cf9b-41fb-91a0-91af9d7677cc.jpg"
+                        style="width:30px">
+                    <h5>Golfing</h5>
+                </td>
+                <td><img src="https://a0.muscache.com/pictures/10ce1091-c854-40f3-a2fb-defc2995bcaf.jpg"
+                        style="width:30px;">
+                    <h5>Beach</h5>
+                </td>
+                <td><img src="https://a0.muscache.com/pictures/3fb523a0-b622-4368-8142-b5e03df7549b.jpg"
+                        style="width:30px;">
+                    <h5>Amazing pools</h5>
+                </td>
+                <td><img src="https://a0.muscache.com/pictures/aaa02c2d-9f0d-4c41-878a-68c12ec6c6bd.jpg"
+                        style="width:30px;">
+                    <h5>Farms</h5>
+                </td>
+                <td><img src="https://a0.muscache.com/pictures/bcd1adc0-5cee-4d7a-85ec-f6730b0f8d0c.jpg"
+                        style="width:30px;">
+                    <h5>Beachfront</h5>
+                </td>
+                <td><img src="https://a0.muscache.com/pictures/6ad4bd95-f086-437d-97e3-14d12155ddfe.jpg"
+                        style="width:30px;">
+                    <h5>Countryside</h5>
+                </td>
+                <td><img src="https://a0.muscache.com/pictures/c5a4f6fc-c92c-4ae8-87dd-57f1ff1b89a6.jpg"
+                        style="width:30px;">
+                    <h5>OMG!</h5>
+                </td>
+                <td><img src="https://a0.muscache.com/pictures/732edad8-3ae0-49a8-a451-29a8010dcc0c.jpg"
+                        style="width:30px;">
+                    <h5>Cabins</h5>
+                </td>
+                <td><img src="https://a0.muscache.com/pictures/35919456-df89-4024-ad50-5fcb7a472df9.jpg"
+                        style="width:30px;">
+                    <h5>Tiny Homes</h5>
+                </td>
+                <td><img src="https://a0.muscache.com/pictures/3b1eb541-46d9-4bef-abc4-c37d77e3c21b.jpg"
+                        style="width:30px;">
+                    <h5>Amazing views</h5>
+                </td>
+                <td><img src="https://a0.muscache.com/pictures/7630c83f-96a8-4232-9a10-0398661e2e6f.jpg"
+                        style="width:30px;">
+                    <h5>rooms</h5>
+                </td>
+                <td><img src="https://a0.muscache.com/pictures/677a041d-7264-4c45-bb72-52bff21eb6e8.jpg"
+                        style="width:30px;">
+                    <h5>Lakefront</h5>
+                </td>
+                <td><img src="https://a0.muscache.com/pictures/6b639c8d-cf9b-41fb-91a0-91af9d7677cc.jpg"
+                        style="width:30px">
+                    <h5>Golfing</h5>
+                </td>
+                <td><img src="https://a0.muscache.com/pictures/10ce1091-c854-40f3-a2fb-defc2995bcaf.jpg"
+                        style="width:30px;">
+                    <h5>Beach</h5>
+                </td>
+                <td><img src="https://a0.muscache.com/pictures/3fb523a0-b622-4368-8142-b5e03df7549b.jpg"
+                        style="width:30px;">
+                    <h5>Amazing pools</h5>
+                </td>
+                <td><img src="https://a0.muscache.com/pictures/aaa02c2d-9f0d-4c41-878a-68c12ec6c6bd.jpg"
+                        style="width:30px;">
+                    <h5>Farms</h5>
+                </td>
+                <td><img src="https://a0.muscache.com/pictures/bcd1adc0-5cee-4d7a-85ec-f6730b0f8d0c.jpg"
+                        style="width:20px;">
+                    <h5>Beachfront</h5>
+                </td>
+                <td><img src="https://a0.muscache.com/pictures/6ad4bd95-f086-437d-97e3-14d12155ddfe.jpg"
+                        style="width:20px;">
+                    <h5>Countryside</h5>
+                </td>
+                <td><img src="https://a0.muscache.com/pictures/c5a4f6fc-c92c-4ae8-87dd-57f1ff1b89a6.jpg"
+                        style="width:20px;">
+                    <h5>OMG!</h5>
+                </td>
+                <td><img src="https://a0.muscache.com/pictures/732edad8-3ae0-49a8-a451-29a8010dcc0c.jpg"
+                        style="width:20px;">
+                    <h5>Cabins</h5>
+                </td>
+                <td><img src="https://a0.muscache.com/pictures/35919456-df89-4024-ad50-5fcb7a472df9.jpg"
+                        style="width:20px;">
+                    <h5>Tiny Homes</h5>
+                </td>
+            </tr>
+
+        </table>
+    </div>
+
+    <div style="overflow: hidden; margin-top: 190px;">
+        <div>
+
+
+
+            <div class="div61">
+
+                <div><a href="airbnb5.html" target="blank"><img
+                            src="https://a0.muscache.com/im/pictures/82e3a044-9e2a-4555-9bee-608a862b3c59.jpg?im_w=720"
+                            style="width: 270px; margin-top: 30px; border-radius: 9px;margin-left: 55px;"></a>
+
+                    <img class="img1" src="https://www.svgrepo.com/show/524063/heart.svg"
+                        style="width: 30px; border-radius: 9px;margin-left: -35px;">
+                    <span
+                        style="width: 90px; border-radius: 9px;margin-left: -190px; font-size: xxx-large; padding: 30px; color:white;">....</span>
+                    <h4 style="margin-left: 60px;">Lonavala,India</h4>
+                    <h5 style="margin-top: -20px; color:gray; margin-left: 60px;">Mountain views</h5>
+                    <h5 style="margin-top: -20px; color:gray; margin-left: 60px;">30Jul-4Aug</h5>
+                    <h5 style="margin-top: -20px; margin-left: 60px;">300$</h5>
+                </div>
+                <div><a href="airbnb5.html" target="blank"><img
+                            src="https://a0.muscache.com/im/pictures/ec593870-4efa-4a82-866b-fd988f783baa.jpg?im_w=720"
+                            style="width: 300px; margin-top: 30px;  border-radius: 9px;margin-left: 40px;"></a>
+                    <img class="img1" src="https://www.svgrepo.com/show/524063/heart.svg"
+                        style="width: 30px; border-radius: 9px;margin-left: -35px;">
+                    <span
+                        style="width: 90px; border-radius: 9px;margin-left: -190px; font-size: xxx-large; padding: 30px; color:white;">....</span>
+                    <h4 style="margin-left: 60px;">Mumbai,India</h4>
+                    <h5 style="margin-top: -20px; color:gray; margin-left: 60px;">Sea views</h5>
+                    <h5 style="margin-top: -20px; color:gray; margin-left: 60px;">30Jul-4Aug</h5>
+                    <h5 style="margin-top: -20px; margin-left: 60px;">1000$</h5>
+
+                </div>
+                <div><a href="airbnb5.html" target="blank"><img
+                            src="https://a0.muscache.com/im/pictures/miso/Hosting-636070119680439851/original/26c46614-4bea-4f2b-9e9d-e09c51b35764.jpeg?im_w=720"
+                            style="width: 300px; margin-top: 30px;  border-radius: 9px;margin-left: 30px;"></a>
+                    <img class="img1" src="https://www.svgrepo.com/show/524063/heart.svg"
+                        style="width: 30px; border-radius: 9px;margin-left: -35px;">
+                    <span
+                        style="width: 90px; border-radius: 9px;margin-left: -190px; font-size: xxx-large; padding: 30px; color:white;">....</span>
+                    <h4 style="margin-left: 60px;">Maldives</h4>
+                    <h5 style="margin-top: -20px; color:gray; margin-left: 60px;">Seaside</h5>
+                    <h5 style="margin-top: -20px; color:gray; margin-left: 60px;">30Jul-4Aug</h5>
+                    <h5 style="margin-top: -20px; margin-left: 60px;">3000$</h5>
+                </div>
+                <div><a href="airbnb5.html" target="blank"><img
+                            src="https://a0.muscache.com/im/pictures/monet/Luxury-602690453390608880/original/d0f99820-343b-483f-82c1-0683a7fc40a9?im_w=720"
+                            style="width: 300px; margin-top: 30px;  border-radius: 9px; margin-left: 30px;"></a>
+                    <img class="img1" src="https://www.svgrepo.com/show/524063/heart.svg"
+                        style="width: 30px; border-radius: 9px;margin-left: -35px;">
+                    <span
+                        style="width: 90px; border-radius: 9px;margin-left: -190px; font-size: xxx-large; padding: 30px; color:white;">....</span>
+                    <h4 style="margin-left: 60px;">Monaco Islands</h4>
+                    <h5 style="margin-top: -20px; color:gray; margin-left: 60px;">Beach</h5>
+                    <h5 style="margin-top: -20px; color:gray; margin-left: 60px;">30Jul-4Aug</h5>
+                    <h5 style="margin-top: -20px; margin-left: 60px;">300$</h5>
+                </div>
+            </div>
+            <div class="div62">
+                <div><a href="airbnb5.html" target="blank"><img
+                            src="https://a0.muscache.com/im/pictures/miso/Hosting-31049657/original/406e6046-0953-4435-942b-6013d88195be.jpeg?im_w=720"
+                            style="width: 280px; margin-top: 30px;  border-radius: 9px; margin-left: 50px;"></a>
+                    <img class="img1" src="https://www.svgrepo.com/show/524063/heart.svg"
+                        style="width: 30px; border-radius: 9px;margin-left: -35px;">
+                    <span
+                        style="width: 90px; border-radius: 9px;margin-left: -190px; font-size: xxx-large; padding: 30px; color:white;">....</span>
+                    <h4 style="margin-left: 60px;">Lonavala,India</h4>
+                    <h5 style="margin-top: -20px; color:gray; margin-left: 60px;">Mountain views</h5>
+                    <h5 style="margin-top: -20px; color:gray; margin-left: 60px;">30Jul-4Aug</h5>
+                    <h5 style="margin-top: -20px; margin-left: 60px;">300$</h5>
+                </div>
+                <div><a href="airbnb5.html" target="blank"><img
+                            src="https://a0.muscache.com/im/pictures/miso/Hosting-27617243/original/30905f55-b814-4635-aaf5-0f81db371b79.jpeg?im_w=720"
+                            style="width: 330px; height:200px; margin-top: 30px;  border-radius: 9px; margin-left: 30px;"></a>
+                    <img class="img1" src="https://www.svgrepo.com/show/524063/heart.svg"
+                        style="width: 30px; border-radius: 9px;margin-left: -35px;">
+                    <span
+                        style="width: 90px; border-radius: 9px;margin-left: -190px; font-size: xxx-large; padding: 30px; color:white;">....</span>
+                    <h4 style="margin-left: 60px;">Lonavala,India</h4>
+                    <h5 style="margin-top: -20px; color:gray; margin-left: 60px;">Mountain views</h5>
+                    <h5 style="margin-top: -20px; color:gray; margin-left: 60px;">30Jul-4Aug</h5>
+                    <h5 style="margin-top: -20px; margin-left: 60px;">300$</h5>
+                </div>
+                <div><a href="airbnb5.html" target="blank"><img
+                            src="https://a0.muscache.com/im/pictures/4d6c4827-0fe1-4556-b772-e12d691f6087.jpg?im_w=720"
+                            style="width: 300px; margin-top: 30px;  border-radius: 9px; margin-left: 30px;"></a>
+                    <img class="img1" src="https://www.svgrepo.com/show/524063/heart.svg"
+                        style="width: 30px; border-radius: 9px;margin-left: -35px;">
+                    <span
+                        style="width: 90px; border-radius: 9px;margin-left: -190px; font-size: xxx-large; padding: 30px; color:white;">....</span>
+                    <h4 style="margin-left: 60px;">Lonavala,India</h4>
+                    <h5 style="margin-top: -20px; color:gray; margin-left: 60px;">Mountain views</h5>
+                    <h5 style="margin-top: -20px; color:gray; margin-left: 60px;">30Jul-4Aug</h5>
+                    <h5 style="margin-top: -20px; margin-left: 60px;">300$</h5>
+                </div>
+                <div><a href="airbnb5.html" target="blank"><img
+                            src="https://a0.muscache.com/im/pictures/miso/Hosting-680965095831956056/original/a449a213-3ffb-4d91-9248-e96443f1655c.jpeg?im_w=720"
+                            style="width: 290px; margin-top: 30px;  border-radius: 9px; margin-left: 30px;"></a>
+                    <img class="img1" src="https://www.svgrepo.com/show/524063/heart.svg"
+                        style="width: 30px; border-radius: 9px;margin-left: -35px;">
+                    <span
+                        style="width: 90px; border-radius: 9px;margin-left: -190px; font-size: xxx-large; padding: 30px; color:white;">....</span>
+                    <h4 style="margin-left: 60px;">Lonavala,India</h4>
+                    <h5 style="margin-top: -20px; color:gray; margin-left: 60px;">Mountain views</h5>
+                    <h5 style="margin-top: -20px; color:gray; margin-left: 60px;">30Jul-4Aug</h5>
+                    <h5 style="margin-top: -20px; margin-left: 60px;">300$</h5>
+                </div>
+            </div>
+            <div class="div63">
+                <div><a href="airbnb5.html" target="blank"><img
+                            src="https://a0.muscache.com/im/pictures/1a8cd8b3-a033-44f3-8468-cffe5febe1e8.jpg?im_w=720"
+                            style="width: 290px; height:200px;  margin-top: 30px;  border-radius: 9px; margin-left: 50px;"></a>
+                    <img class="img1" src="https://www.svgrepo.com/show/524063/heart.svg"
+                        style="width: 30px; border-radius: 9px;margin-left: -35px;">
+
+                    <h4 style="margin-left: 60px;">Sikkim,India</h4>
+                    <h5 style="margin-top: -20px; color:gray; margin-left: 60px;">Mountain views</h5>
+                    <h5 style="margin-top: -20px; color:gray; margin-left: 60px;">30Jul-4Aug</h5>
+                    <h5 style="margin-top: -20px; margin-left: 60px;">600$</h5>
+                </div>
+                <div><a href="airbnb5.html" target="blank"><img
+                            src="https://a0.muscache.com/im/pictures/520141b5-8939-4a4f-be9f-53e828778891.jpg?im_w=720"
+                            style="width: 330px; height:200px; margin-top: 30px;  border-radius: 9px; margin-left: 30px;"></a>
+                    <img class="img1" src="https://www.svgrepo.com/show/524063/heart.svg"
+                        style="width: 30px; border-radius: 9px;margin-left: -35px;">
+
+                    <h4 style="margin-left: 60px;">Haryana,India</h4>
+                    <h5 style="margin-top: -20px; color:gray; margin-left: 60px;">Mountain views</h5>
+                    <h5 style="margin-top: -20px; color:gray; margin-left: 60px;">30Jul-4Aug</h5>
+                    <h5 style="margin-top: -20px; margin-left: 60px;">200$</h5>
+                </div>
+                <div><a href="airbnb5.html" target="blank"><img
+                            src="https://a0.muscache.com/im/pictures/miso/Hosting-52709821/original/0fc7041a-0fb3-4818-a089-e42285fff4fb.jpeg?im_w=720"
+                            style="width: 300px; margin-top: 30px;  border-radius: 9px; margin-left: 30px;"></a>
+                    <img class="img1" src="https://www.svgrepo.com/show/524063/heart.svg"
+                        style="width: 30px; border-radius: 9px;margin-left: -35px;">
+                    <h4 style="margin-left: 60px;">Haryana,India</h4>
+                    <h5 style="margin-top: -20px; color:gray; margin-left: 60px;">Mountain views</h5>
+                    <h5 style="margin-top: -20px; color:gray; margin-left: 60px;">30Jul-4Aug</h5>
+                    <h5 style="margin-top: -20px; margin-left: 60px;">300$</h5>
+                </div>
+                <div><a href="airbnb5.html" target="blank"><img
+                            src="https://a0.muscache.com/im/pictures/4d6d134b-ec17-4337-be40-564a63f72ab3.jpg?im_w=720"
+                            style="width: 290px; margin-top: 30px;  border-radius: 9px; margin-left: 30px;"></a>
+
+
+
+                    <img class="img1" src="https://www.svgrepo.com/show/524063/heart.svg"
+                        style="width: 30px; border-radius: 9px;margin-left: -35px;">
+                    <h4 style="margin-left: 60px;">Indore,India</h4>
+                    <h5 style="margin-top: -20px; color:gray; margin-left: 60px;">Mountain views</h5>
+                    <h5 style="margin-top: -20px; color:gray; margin-left: 60px;">30Jul-4Aug</h5>
+                    <h5 style="margin-top: -20px; margin-left: 60px;">500$</h5>
+                </div>
+            </div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+
+    <div style="position:fixed; bottom:0px; height:80px; width: 4000px; background-color: rgb(241, 236, 236);">
+
+        <div style="margin-top: 30px;">
+            <h>© 2023 Airbnb, Inc.·PrivacyTermsSitemapCompany details·Destinations
+            </h>
+        </div>
+        <div style="margin-left: 600px; margin-top: -30px;">
+            <a style="margin-left: 500px;">English(IN)</a>
+
+            <a>
+                <i class="fa fa-globe" style="margin-left: 15px;"></i>
+            </a>
+            <a style="margin-left: 45px;">Support and resources</a>
+        </div>
+        <input type="checkbox" id="fv" hidden>
+
+        <label for="fv" style="margin-left: 700px;">Filter</label>
+        <ul class="main">
+            <li>
+                <h>Price range
+                </h>
+
+            </li>
+            <li>
+                <p>The average nightly price is ₹40,298</p>
+            </li>
+            <li>
+                <img src="https://th.bing.com/th/id/R.d900787f2d81d79930e49684bd62b3cb?rik=RMeTZNi27qfxTQ&riu=http%3a%2f%2fcliparts.co%2fcliparts%2fBTg%2fak7%2fBTgak7eT8.png&ehk=hNFHzfdlw3%2fRqYM3x5E11RXfVS7AT7BSvyonl8aWZD0%3d&risl=&pid=ImgRaw&r=0"
+                    width="300px">
+            </li>
+            <li>
+                <h>Type of places you want to search</h>
+            </li>
+            <li><input type="checkbox">Entire place
+
+            </li>
+            <li><input type="checkbox">Room</li>
+            <li><input type="checkbox">Shared room</li>
+            <li>
+                <h>Amenities</h>
+                <table>
+                    <tr>
+                        <td><input type="checkbox">Wifi</td>
+                        <td><input type="checkbox">Kitchen</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox">Dryer</td>
+                        <td><input type="checkbox">Air conditioning </td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox">Washing machine</td>
+                        <td><input type="checkbox">heating</td>
+                    </tr>
+                </table>
+            </li>
+            <li>
+                <h>Host language</h>
+                <table>
+                    <tr>
+                        <td><input type="checkbox">English</td>
+                        <td><input type="checkbox">French</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox">German</td>
+                        <td><input type="checkbox">Japanese</td>
+                    </tr>
+                </table>
+
+
+            </li>
+        </ul>
+
+
+
+
+
+    </div>
+
+</body>
+
+</html>
